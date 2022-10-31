@@ -1,0 +1,17 @@
+version: "3"
+services:
+  quasar-fe:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio_quasar
+    ports:
+      - '80'
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    networks:
+      - nginxproxyman
+networks:
+  nginxproxyman:
+    external: true
