@@ -40,7 +40,7 @@ const socials = ref([
   {
     name: "github",
     icon: "fa-brands fa-github",
-    link: "https://www.linkedin.com/in/bang-nguyen-viet-b4b226235/",
+    link: "https://github.com/bangrobe",
   },
   {
     name: "linkedin",
