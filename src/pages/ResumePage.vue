@@ -28,15 +28,15 @@
             marketingchienluoc.com
           </q-timeline-entry>
           <q-timeline-entry title="Wordpress Developer" subtitle="2015-2016">
-            Build and manage wordpress website (business and e-commerce) for a
-            small company in HCM city.
+            Build and manage wordpress websitefa-stack (business and e-commerce) for a
+            small trading company in HCM city.
           </q-timeline-entry>
           <q-timeline-entry
             title="Wordpress Developer Freelancer"
             subtitle="2016-2018"
           >
-            Design and build wordpress website for clients. Fix wordpress
-            problems.
+            Design and build wordpress websites for clients. Fix wordpress
+            problems (plugins and themes).
           </q-timeline-entry>
           <q-timeline-entry title="Teacher" subtitle="2018-2020">
             Teaching at Sao Viet Gia Lai school. Subject: Informatics.

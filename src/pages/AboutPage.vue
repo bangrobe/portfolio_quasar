@@ -14,7 +14,7 @@
       <div class="col-12">
         <!--About -->
         <h3 class="text-h6 text-primary text-weight-bold">
-          I'm A Wed Developer
+          I'm A Web Developer
         </h3>
 
         <div class="row q-col-gutter-md">
@@ -46,7 +46,7 @@
     <div class="row">
       <div class="col-md-6 col-12">
         <h3 class="text-h6 text-primary text-weight-bold">
-          My working languages & framework
+          My working languages & frameworks
         </h3>
         <div class="row full-width">
           <div class="col-12 flex flex-center">
