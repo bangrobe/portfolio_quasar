@@ -28,7 +28,7 @@
             marketingchienluoc.com
           </q-timeline-entry>
           <q-timeline-entry title="Wordpress Developer" subtitle="2015-2016">
-            Build and manage wordpress websitefa-stack (business and e-commerce) for a
+            Build and manage wordpress websites (business and e-commerce) for a
             small trading company in HCM city.
           </q-timeline-entry>
           <q-timeline-entry
