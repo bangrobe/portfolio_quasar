@@ -15,7 +15,8 @@
             <strong>Github:</strong> {{ project.github}}
         </p>
         <p class="subtitle q-my-sm">
-            <strong>Demo:</strong> {{ project.link}}
+            <strong>Demo: </strong>
+            <a :href="project.link" target="_blank">{{ project.link}}</a>
         </p>
       </q-card-section>
 

@@ -1,6 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <q-toolbar class="bg-grey-3" v-if="!$q.screen.gt.sm">
+      <h2 class="text-h4 q-my-none">Sơn Bằng's portfolio</h2>
       <q-space></q-space>
       <q-btn
         @click="drawer = !drawer"

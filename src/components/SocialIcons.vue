@@ -50,7 +50,7 @@ const socials = ref([
   {
     name: "youtube",
     icon: "fa-brands fa-youtube",
-    link: "https://www.youtube.com/channel/UC7qEk915gA6SREYkvCsUW6A",
+    link: "https://www.youtube.com/@bangdigi",
   },
 ]);
 </script>

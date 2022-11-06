@@ -1,11 +1,8 @@
 <template>
   <div class="q-pa-md">
     <SectionTitle title="Contact Me" />
+    <p>Surely you can contact me anytime with my very detail info below.</p>
     <div class="row q-col-gutter-lg">
-      <p>
-        Surely you can contact me anytime with my very detail info below. If you
-        think it's not enough. Just send me a email for via contact form.
-      </p>
       <div class="col-12 col-md-5">
         <!--Contact Info-->
         <q-card>
@@ -103,14 +100,12 @@ const content = ref(null);
 const onSubmit = (e) => {
   e.preventDefault();
   Email.send({
-    SecureToken : "1e04a170-e178-409d-bff0-df986b3bdaa9",
-    To : 'bangrobe5@gmail.com',
-    From : "bangnguyen1488@gmail.com",
-    Subject : "This is the subject",
-    Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
+    SecureToken: "1e04a170-e178-409d-bff0-df986b3bdaa9",
+    To: "bangrobe5@gmail.com",
+    From: "bangnguyen1488@gmail.com",
+    Subject: "This is the subject",
+    Body: "And this is the body",
+  }).then((message) => alert(message));
 };
 useMeta(() => {
   return {

@@ -37,6 +37,22 @@ const projects = [
     link: 'https://foodie.bangdigital.xyz/',
     github: 'https://github.com/bangrobe/foodie-fe',
     image: '/img/foodie.jpeg'
+  },
+  {
+    name: 'Nuxt MovieDB',
+    description: 'Nuxt 2, Vuetify',
+    features: 'Display latest movies from themoviedb API',
+    link: 'https://nuxtmoviedb.vercel.app',
+    github: 'https://github.com/bangrobe/nuxtmoviedb',
+    image: '/img/nuxtmoviedb.jpg'
+  },
+  {
+    name: 'Gallery Vue',
+    description: 'Vue 3, Nodejs, Cloudinary, Tailwind',
+    features: 'Upload and display images from Cloudinary',
+    link: 'https://digigallery.netlify.app',
+    github: 'https://github.com/bangrobe/gallery-vue-fe',
+    image: '/img/galleryvue.jpg'
   }
 ]
 useMeta(() => {
