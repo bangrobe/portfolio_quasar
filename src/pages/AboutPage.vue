@@ -55,13 +55,17 @@
               style="height: 120px; max-width: 150px"
             />
 
-            <q-img src="/icons/icons8-vue.png" style="width: 96px" ratio="1" />
+            <q-img src="/icons/icons8-vue.png" style="width: 96px" ratio="1">
+              <q-tooltip>Vue, Nuxt & Quasar.</q-tooltip>
+            </q-img>
 
             <q-img
               src="/icons/icons8-react-80.png"
               style="width: 96px"
               ratio="1"
-            />
+            >
+            <q-tooltip>React, Next</q-tooltip>
+            </q-img>
           </div>
         </div>
         <div class="row">
@@ -75,13 +79,17 @@
               src="/icons/icons8-django-96.png"
               style="width: 96px"
               ratio="1"
-            />
+            >
+            <q-tooltip>Django, Django Rest Framework, Channels</q-tooltip>
+            </q-img>
 
             <q-img
               src="/icons/icons8-web-scraper-96.png"
               style="width: 96px"
               ratio="1"
-            />
+            >
+            <q-tooltip>Scrapy, a powerfull web scraping</q-tooltip>
+            </q-img>
           </div>
         </div>
       </div>
@@ -93,16 +101,34 @@
           <div class="col-12 flex flex-center">
             <q-img
               src="/icons/icons8-docker-96.png"
-              style="width: 96px" ratio="1"
-            />
+              style="width: 96px"
+              ratio="1"
+            >
+            <q-tooltip>Docker & docker-compose</q-tooltip>
+            </q-img>
 
-            <q-img src="/icons/icons8-linux-96.png" style="width: 96px" ratio="1" />
+            <q-img
+              src="/icons/icons8-linux-96.png"
+              style="width: 96px"
+              ratio="1"
+            >
+            <q-tooltip>Config Linux Server</q-tooltip>
+            </q-img>
 
             <q-img
               src="/icons/icons8-wordpress-100.png"
               style="width: 96px"
               ratio="1"
-            />
+            >
+            <q-tooltip> Wordpress </q-tooltip>
+            </q-img>
+            <q-img
+              src="/icons/Strapi.monogram.logo.png"
+              style="width: 96px"
+              ratio="1"
+            >
+              <q-tooltip> Strapi - a headless CMS </q-tooltip>
+            </q-img>
           </div>
         </div>
       </div>

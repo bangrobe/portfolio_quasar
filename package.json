@@ -1,9 +1,9 @@
 {
   "name": "quasar-fe",
   "version": "0.0.1",
-  "description": "Frontend for personal portfolio project",
-  "productName": "Quasar App",
-  "author": "bangnomo <bangrobe5@gmail.com>",
+  "description": "My personal portfolio project",
+  "productName": "Son Bang Portfolio",
+  "author": "Bang Nguyen <bangrobe5@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
