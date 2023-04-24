@@ -2,14 +2,14 @@ name: bangdigi.one Quasar Portfolio CI-CD
 run-name: bangdigi.one running CI-CD with Quasar, docker compose
 on: [push]
 jobs:
-  check-bats-version:
-    runs-on: ubuntu-latest
-    steps:
-        - name: executing remote ssh commands
-          uses: appleboy/ssh-action@v0.1.10
-          with:
-            host: ${{ secrets.VPS_HOST }}
-            username: ${{ secrets.USERNAME }}
-            key: ${{ secrets.SSHKEY }}
-            port: ${{ secrets.VPS_PORT }}
-            script: whoami
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: executing remote ssh commands
+              uses: appleboy/ssh-action@v0.1.10
+              with:
+                host: ${{ secrets.VPS_HOST }}
+                username: ${{ secrets.USERNAME }}
+                key: ${{ secrets.SSHKEY }}
+                port: ${{ secrets.VPS_PORT }}
+                script: whoami
