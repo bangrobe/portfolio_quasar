@@ -1,0 +1,23 @@
+name: bangdigi.one Quasar Portfolio CI-CD
+run-name: bangdigi.one running CI-CD with Quasar, docker compose
+on: [push]
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: executing remote ssh commands
+              uses: appleboy/ssh-action@v0.1.10
+              with:
+                host: ${{ secrets.VPS_HOST }}
+                username: ${{ secrets.USERNAME }}
+                passphrase: ${{ secrets.VPS_PASSPHRASE }}
+                key: ${{ secrets.SSHKEY }}
+                port: ${{ secrets.VPS_PORT }}
+                script: |
+                    cd ${{ secrets.PROJECT_PATH }}
+                    docker compose down
+                    git pull
+                    docker compose build
+                    docker compose up
+                    docker image prune -a -f
+                    echo "CI completed"
