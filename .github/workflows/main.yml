@@ -10,6 +10,7 @@ jobs:
               with:
                 host: ${{ secrets.VPS_HOST }}
                 username: ${{ secrets.USERNAME }}
+                passphrase: ${{ secrets.VPS_PASSPHRASE }}
                 key: ${{ secrets.SSHKEY }}
                 port: ${{ secrets.VPS_PORT }}
                 script: whoami
