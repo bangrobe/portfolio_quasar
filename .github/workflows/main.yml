@@ -15,5 +15,9 @@ jobs:
                 port: ${{ secrets.VPS_PORT }}
                 script: |
                     cd ${{ secrets.PROJECT_PATH }}
+                    docker compose down
                     git pull
-                    echo "Hello, we get new pull"
+                    docker compose build
+                    docker compose up
+                    docker image prune -a -f
+                    echo "CI completed"
