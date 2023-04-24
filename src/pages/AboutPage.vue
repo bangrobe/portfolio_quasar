@@ -22,7 +22,7 @@
             <ul>
               <ListItemInfo itemName="Birthday">14 Feb, 1988</ListItemInfo>
               <ListItemInfo itemName="Website">
-                <a href="https://bangdigital.xyz">bangdigital.xyz</a>
+                <a href="https://bangdigital.one">bangdigital.one</a>
               </ListItemInfo>
               <ListItemInfo itemName="Phone">0974 334 911</ListItemInfo>
             </ul>
@@ -31,7 +31,7 @@
             <ul>
               <ListItemInfo itemName="Degree">Bachelor</ListItemInfo>
               <ListItemInfo itemName="Email">
-                <a href="mailto:bangnugyen1488@gmail.com"
+                <a href="mailto:bangnguyen1488@gmail.com"
                   >bangnguyen1488@gmail.com</a
                 >
               </ListItemInfo>
