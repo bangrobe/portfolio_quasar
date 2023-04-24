@@ -13,4 +13,7 @@ jobs:
                 passphrase: ${{ secrets.VPS_PASSPHRASE }}
                 key: ${{ secrets.SSHKEY }}
                 port: ${{ secrets.VPS_PORT }}
-                script: whoami
+                script:
+                    cd ${{ secrets.PROJECT_PATH }}
+                    git pull
+                    echo "Hello, we get new pull"
